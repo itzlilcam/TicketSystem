@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #171941;
+}
+.logo {width: 45px; transform: rotate(5deg);}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav li a {color: white;}
+.login {
+    background-color: #304068;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+.login:hover {background-color: #253252; transition: 0.3s;}
+.login .fa-solid {margin-right: 5px; font-size: 15px; font-weight: 700;}
+
+.cm-btn {
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    padding: 4px 4px;
+    border-radius: 3px;
+    font-size: 10px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #e7961c , #dfae65);
+    cursor: auto;
+}
+
+nav .fa-solid, .fa-brands {
+    transition: 0.3s;
+    padding: 5px;
+}
+.fa-crown:hover {color: #f59e0b; transition: 0.3s;}
+.fa-discord:hover {color: #404eed; transition: 0.3s;}
+.fa-twitter:hover {color: #1988d2; transition: 0.3s;}
+
+.head {
+    text-align: center;
+    margin-top: 5%;
+}
+.head img {width: 150px; transform: rotate(-5deg); padding-bottom: 30px;}
+.head h1 {font-size: 40px; color: white; padding-bottom: 20px;}
+#invite {
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #01ace6 , #01e2cc);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#invite:hover {padding: 12px 47px; transition: 0.3s; font-size: 16px;}
+
+#support {
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #c453e9 , #db4fd1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#support:hover {padding: 12px 47px; transition: 0.3s; font-size: 16px;}
+
+#vote {
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #e7961c , #dfae65);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#vote .fa-solid {margin-right: 5px;}
+#vote:hover {padding: 12px 47px; transition: 0.3s; font-size: 16px;}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgb(19, 19, 34);
+    color: white;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer a {color: white;}
+
+@media only screen and (max-width: 600px) {
+    .head {margin-top: 25%;}
+    .head img {width: 75px;}
+    .head h1 {font-size: 30px;}
+    #invite {padding: 10px 25px;}
+    #support {padding: 10px 25px;}
+    #vote {padding: 10px 25px;}
+}
+
+/*
+
+Created by @vrezai
+
+Instagram: https://instagram.com/itzlilcam
+Twitter: https://twitter.com/itzlilcam
+Twitch: https://twitch.tv/itzlilcam
+Github: https://github.com/itzlilcam
+
+Follow Me: https://vrezai.me
+
+*/
